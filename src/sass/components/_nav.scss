@@ -1,0 +1,41 @@
+.nav {
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    top: -100%;
+    left: 0;
+
+    background-color: var(--white);
+
+    z-index: 9;
+    transition: .3s all ease;
+
+    &.active {
+        top: 0;
+    }
+
+    &-wrap,
+    &-wrap__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-wrap__list {
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    &-wrap__item a {
+        font-size: 18px;
+
+        color: var(--black);
+    }
+}

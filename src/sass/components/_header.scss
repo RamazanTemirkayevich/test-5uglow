@@ -1,4 +1,9 @@
 .header {
+    position: fixed;
+    width: 100%;
+
+    z-index: 10;
+
     &-wrap {
         display: flex;
         align-items: center;
@@ -19,12 +24,24 @@
         }
     }
 
+    &-wrap__item a svg {
+        display: flex;
+        flex-shrink: 0;
+
+        width: 28px;
+        height: 28px;
+
+        fill: none;
+        stroke: var(--black);
+    }
+
     &-wrap__nav {
         display: flex;
         align-items: center;
 
         gap: 24px;
     }
+
     &-wrap__menu {
         position: relative;
 
@@ -43,6 +60,7 @@
             right: 0;
 
             background-color: var(--black);
+            transition: .2s all ease;
         }
 
         &::after {
@@ -52,6 +70,22 @@
 
         span {
             top: 14px;
+        }
+    }
+
+    &-wrap__menu.active {
+        &::after,
+        span {
+            width: 100%;
+            top: 15px;
+        }
+
+        &::after {
+            transform: rotate(45deg);
+        }
+
+        span {
+            transform: rotate(-45deg);
         }
     }
 }

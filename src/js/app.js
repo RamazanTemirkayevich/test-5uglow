@@ -1,3 +1,3 @@
-import sayHello from './lib/sayHello';
+import burgerMenu from './modules/burgerMenu';
 
-sayHello();
+burgerMenu();
