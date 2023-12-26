@@ -1,0 +1,37 @@
+// breakpoints
+$phone-s: 365;
+$phone-m: 414;
+$tablet: 767;
+$desktop: 1024;
+
+// fonts
+$font-main: "hl", sans-serif;
+
+$max-width: 1140px;
+
+:root {
+  --black: #0C0A17;
+  --white: #FFFFFF;
+
+  --gray-1: #6E6E6E;
+  --gray-2: #C8C8C8;
+  --gray-3: #F1F1F1;
+
+  --black-product: #444444;
+  --brown-product: #AE6D0C;
+  --blue-product: #106DA1;
+
+  --succes: #007E06;
+  --error: #D92C2C;
+  // border radius
+  --br--3: 3px;
+  --br--5: 5px;
+  --br--8: 8px;
+  --br--10: 10px;
+  --br--12: 12px;
+  --br--15: 15px;
+  --br--20: 20px;
+  --br--25: 25px;
+  --br--30: 30px;
+  --br--50: 50px;
+}
