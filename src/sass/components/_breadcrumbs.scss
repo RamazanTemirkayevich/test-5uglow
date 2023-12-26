@@ -1,0 +1,17 @@
+#breadcrumbs {
+    margin: unset!important;
+    color: var(--grey-1);
+    font-size: 12px;
+
+    a {
+        margin-left: unset!important;
+        margin-right: 10px;
+        color: var(--grey-1)!important;
+    }
+}
+
+.breadcrumb_last {
+    margin-left: 10px;
+
+    color: var(--black) !important;
+}

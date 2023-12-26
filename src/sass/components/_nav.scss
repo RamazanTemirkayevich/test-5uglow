@@ -37,5 +37,11 @@
         font-size: 18px;
 
         color: var(--black);
+
+        transition: .3s;
+
+        &:hover {
+            color: var(--grey-1);
+        }
     }
 }

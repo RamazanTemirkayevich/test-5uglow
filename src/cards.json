@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Утепленная стеганная куртка женская Top Hills",
+        "img": "card-img1.jpg",
+        "article": "512-05",
+        "season": "Осень-зима",
+        "price": "10 000",
+        "oldPrice": "12 000",
+        "sizes": [
+            {"size": "XS"},
+            {"size": "S"},
+            {"size": "M"},
+            {"size": "L"},
+            {"size": "XL"}
+        ],
+        "colors": [
+            {"color": "#444444"},
+            {"color": "#106DA1"},
+            {"color": "#AE6D0C"}
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Вязанная шапка Zolla",
+        "img": "card-img2.png",
+        "article": "891-256",
+        "season": "Демисезон",
+        "price": "500",
+        "oldPrice": "",
+        "sizes": [
+            {"size": "XS"},
+            {"size": "S"},
+            {"size": "M"},
+            {"size": "empty"},
+            {"size": "empty"}
+        ],
+        "colors": [
+            {"color": "#444444"}
+        ]
+    }
+]
