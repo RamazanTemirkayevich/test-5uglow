@@ -5,14 +5,14 @@
         "img": "card-img1.jpg",
         "article": "512-05",
         "season": "Осень-зима",
-        "price": "10 000",
-        "oldPrice": "12 000",
+        "price": "10 000&thinsp;₽",
+        "oldPrice": "12 000&thinsp;₽",
         "sizes": [
-            {"size": "XS"},
-            {"size": "S"},
-            {"size": "M"},
-            {"size": "L"},
-            {"size": "XL"}
+            {"size": "XS", "exist": true},
+            {"size": "S", "exist": true},
+            {"size": "M", "exist": true},
+            {"size": "L", "exist": true},
+            {"size": "Xl", "exist": true}
         ],
         "colors": [
             {"color": "#444444"},
@@ -26,14 +26,14 @@
         "img": "card-img2.png",
         "article": "891-256",
         "season": "Демисезон",
-        "price": "500",
+        "price": "500&thinsp;₽",
         "oldPrice": " ",
         "sizes": [
-            {"size": "XS"},
-            {"size": "S"},
-            {"size": "M"},
-            {"size": "empty"},
-            {"size": "empty"}
+            {"size": "XS", "exist": true},
+            {"size": "S", "exist": true},
+            {"size": "M", "exist": true},
+            {"size": "L", "exist": false},
+            {"size": "Xl", "exist": false}
         ],
         "colors": [
             {"color": "#444444"}
